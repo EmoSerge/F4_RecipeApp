@@ -17,10 +17,11 @@
 1. Перейдите в терминале в директорию проекта. 
 2. Клонируйте проект.
 ```bash
-git clone https://github.com/EmoSerge/ChatBoard
+git clone https://github.com/EmoSerge/F4_RecipeApp
 ```
-3. Создайте и активируйте виртуальную среду.
+3. Перейдите в папку backend и создайте и активируйте виртуальную среду.
 ```bash
+cd backend
 py -m vevn venv
 venv\scripts\activate
 ```
@@ -34,7 +35,7 @@ python -c 'from django.core.management.utils import get_random_secret_key; print
 ```
 6. Перейдтие в директорию ChatB
 ```bash
-cd ChatB
+cd recipeapp
 ```
 7. Запустите сервер.
 ```bash
