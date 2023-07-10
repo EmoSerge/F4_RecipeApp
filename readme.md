@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```bash
 python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 ```
-6. Перейдтие в директорию ChatB
+6. Перейдтие в директорию recipeapp
 ```bash
 cd recipeapp
 ```
