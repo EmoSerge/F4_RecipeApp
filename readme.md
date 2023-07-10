@@ -22,7 +22,7 @@ git clone https://github.com/EmoSerge/F4_RecipeApp
 3. Перейдите в папку backend и создайте и активируйте виртуальную среду.
 ```bash
 cd backend
-py -m vevn venv
+py -m venv venv
 venv\scripts\activate
 ```
 4. Установите требуемые библиотеки.
