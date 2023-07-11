@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    min-width: 500px;
+    background-color: #ccefe8;
+}
+
+nav.homepage {
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    background-color: #ffe237;
+    color: #000000;
+
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #7a2121;
+    text-transform: uppercase;
+}
+.homepage:hover {
+    background-color: #f67408;
+}
+
+.homepage:active {
+    background-color: #ef0f0f;
+}
