@@ -29,7 +29,7 @@ venv\scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-5. Создайте секретный ключ и вставьте его в файл backend\recipeapp\recipeapp\.env в переменную SECRET_KEY
+5. Создайте секретный ключ и вставьте его в файл backend\recipeapp\recipeapp\\.env в переменную SECRET_KEY
 ```bash
 python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 ```
@@ -72,7 +72,9 @@ http://127.0.0.1:8000/swagger.json
 http://localhost:3000/
 
 В шапке приложения закреплена кнопка для возврата к главной странице.
+
 На главной странице можно перейти на страницу категории и увидеть все рецепты в данной категории.
+
 На странице категории можно перейти на страницу рецепта и подробно ознакомится с ним.
 
 
